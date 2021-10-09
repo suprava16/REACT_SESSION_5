@@ -6,7 +6,8 @@ import SetState_Method from "./Components/State/SetState_Method"
 import ChangeEvent from "./Components/State/ChangeEvent"
 import AddData from "./Components/State/AddData"
 import Greet from "./FunctionalComponents/Greet"
-import PropsCom from "./FunctionalComponents/PropsCom"
+import PropsCom from "./FunctionalComponents/FunctionalProps/PropsCom"
+import UseStateCom from "./FunctionalComponents/StateVariables/UseStateCom"
 class App extends React.Component {
   render() {
     return (
@@ -19,7 +20,8 @@ class App extends React.Component {
         {/* <ChangeEvent/> */}
         {/* <AddData/> */}
         {/* <Greet/> */}
-        <PropsCom name="suprava" roll={100}/>
+        {/* <PropsCom name="suprava" roll={100}/> */}
+        <UseStateCom/>
       </div>
     )
   }

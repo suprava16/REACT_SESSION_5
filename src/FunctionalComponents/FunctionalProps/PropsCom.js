@@ -1,5 +1,5 @@
 import React from "react" 
-
+import NewComponent from "../FunctionalProps/NewComponent"
 function PropsCom(props){
   console.log(props)
 
@@ -11,7 +11,7 @@ function PropsCom(props){
     <h1>roll:{props.roll}</h1> */}
     <h1>name:{name}</h1>
     <h1>roll:{roll}</h1>
-    
+    <NewComponent data={props}/>
     </>
   )
 }

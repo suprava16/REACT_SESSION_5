@@ -17,7 +17,9 @@ export default class AddData extends React.Component {
 
   handleClick=()=>{
     this.setState({
-      sum: parseInt(this.state.num1)+parseInt(this.state.num2)
+      sum: parseInt(this.state.num1)+parseInt(this.state.num2),
+      num1:"",
+      num2:""
     })
   }
   render() {

@@ -8,6 +8,8 @@ import AddData from "./Components/State/AddData"
 import Greet from "./FunctionalComponents/Greet"
 import PropsCom from "./FunctionalComponents/FunctionalProps/PropsCom"
 import UseStateCom from "./FunctionalComponents/StateVariables/UseStateCom"
+import ChangeFunction from "./FunctionalComponents/StateVariables/ChangeFunction"
+import ArrayCom from "./Components/Array/ArrayCom"
 class App extends React.Component {
   render() {
     return (
@@ -21,7 +23,9 @@ class App extends React.Component {
         {/* <AddData/> */}
         {/* <Greet/> */}
         {/* <PropsCom name="suprava" roll={100}/> */}
-        <UseStateCom/>
+        {/* <UseStateCom/> */}
+        {/* <ChangeFunction/> */}
+        <ArrayCom/>
       </div>
     )
   }

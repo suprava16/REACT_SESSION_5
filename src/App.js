@@ -10,6 +10,7 @@ import PropsCom from "./FunctionalComponents/FunctionalProps/PropsCom"
 import UseStateCom from "./FunctionalComponents/StateVariables/UseStateCom"
 import ChangeFunction from "./FunctionalComponents/StateVariables/ChangeFunction"
 import ArrayCom from "./Components/Array/ArrayCom"
+import ArrayOfObject from "./Components/Array/ArrayOfObject"
 class App extends React.Component {
   render() {
     return (
@@ -25,7 +26,8 @@ class App extends React.Component {
         {/* <PropsCom name="suprava" roll={100}/> */}
         {/* <UseStateCom/> */}
         {/* <ChangeFunction/> */}
-        <ArrayCom/>
+        {/* <ArrayCom/> */}
+        <ArrayOfObject/>
       </div>
     )
   }

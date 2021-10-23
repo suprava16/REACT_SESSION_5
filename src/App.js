@@ -11,6 +11,7 @@ import UseStateCom from "./FunctionalComponents/StateVariables/UseStateCom"
 import ChangeFunction from "./FunctionalComponents/StateVariables/ChangeFunction"
 import ArrayCom from "./Components/Array/ArrayCom"
 import ArrayOfObject from "./Components/Array/ArrayOfObject"
+import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
 class App extends React.Component {
   render() {
     return (
@@ -27,7 +28,8 @@ class App extends React.Component {
         {/* <UseStateCom/> */}
         {/* <ChangeFunction/> */}
         {/* <ArrayCom/> */}
-        <ArrayOfObject/>
+        {/* <ArrayOfObject/> */}
+        <ConditionalRendering/>
       </div>
     )
   }

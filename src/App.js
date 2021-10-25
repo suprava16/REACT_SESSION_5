@@ -12,6 +12,7 @@ import ChangeFunction from "./FunctionalComponents/StateVariables/ChangeFunction
 import ArrayCom from "./Components/Array/ArrayCom"
 import ArrayOfObject from "./Components/Array/ArrayOfObject"
 import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
+import Main from "./Components/LifeCycleMethod/Main"
 class App extends React.Component {
   render() {
     return (
@@ -29,7 +30,8 @@ class App extends React.Component {
         {/* <ChangeFunction/> */}
         {/* <ArrayCom/> */}
         {/* <ArrayOfObject/> */}
-        <ConditionalRendering/>
+        {/* <ConditionalRendering/> */}
+        <Main/>
       </div>
     )
   }

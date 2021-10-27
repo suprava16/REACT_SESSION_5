@@ -13,6 +13,7 @@ import ArrayCom from "./Components/Array/ArrayCom"
 import ArrayOfObject from "./Components/Array/ArrayOfObject"
 import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
 import Main from "./Components/LifeCycleMethod/Main"
+import FetchApi from "./Components/Apis/FetchApi"
 class App extends React.Component {
   render() {
     return (
@@ -31,7 +32,8 @@ class App extends React.Component {
         {/* <ArrayCom/> */}
         {/* <ArrayOfObject/> */}
         {/* <ConditionalRendering/> */}
-        <Main/>
+        {/* <Main/> */}
+        <FetchApi/>
       </div>
     )
   }

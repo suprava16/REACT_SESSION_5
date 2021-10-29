@@ -14,6 +14,7 @@ import ArrayOfObject from "./Components/Array/ArrayOfObject"
 import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
 import Main from "./Components/LifeCycleMethod/Main"
 import FetchApi from "./Components/Apis/FetchApi"
+import PostApi from "./Components/Apis/PostApi"
 class App extends React.Component {
   render() {
     return (
@@ -33,7 +34,8 @@ class App extends React.Component {
         {/* <ArrayOfObject/> */}
         {/* <ConditionalRendering/> */}
         {/* <Main/> */}
-        <FetchApi/>
+        {/* <FetchApi/> */}
+        <PostApi/>
       </div>
     )
   }

@@ -11,16 +11,24 @@ componentDidMount(){
   fetch("https://reqres.in/api/users?page=2")
   .then((response)=>(response.json()))
   .then((result)=>{
+    console.log(result)
     this.setState({
       user:result.data
     })
-    console.log(result)
   })
 }
   render(){
     return(
       <div>
-
+        {this.state.user.map((u,i)=>{
+          return(
+            <>
+            
+            {u.email}
+            <img src={u.avatar} alt="image"/>
+            </>
+          )
+        })}
       </div>
     )
   }

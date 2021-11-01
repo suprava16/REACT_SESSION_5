@@ -15,6 +15,7 @@ import ConditionalRendering from "./Components/ConditionalRendering/ConditionalR
 import Main from "./Components/LifeCycleMethod/Main"
 import FetchApi from "./Components/Apis/FetchApi"
 import PostApi from "./Components/Apis/PostApi"
+import Design from "./Components/Material_ui/Design"
 class App extends React.Component {
   render() {
     return (
@@ -35,7 +36,8 @@ class App extends React.Component {
         {/* <ConditionalRendering/> */}
         {/* <Main/> */}
         {/* <FetchApi/> */}
-        <PostApi/>
+        {/* <PostApi/> */}
+        <Design/>
       </div>
     )
   }
